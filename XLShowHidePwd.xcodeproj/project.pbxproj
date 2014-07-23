@@ -19,6 +19,13 @@
 		318F2B48197FA09C0004E6F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318F2B30197FA09C0004E6F2 /* UIKit.framework */; };
 		318F2B50197FA09C0004E6F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 318F2B4E197FA09C0004E6F2 /* InfoPlist.strings */; };
 		318F2B52197FA09C0004E6F2 /* XLShowHidePwdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 318F2B51197FA09C0004E6F2 /* XLShowHidePwdTests.m */; };
+		318F2B65197FA0D20004E6F2 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 318F2B5C197FA0D20004E6F2 /* MainVC.m */; };
+		318F2B66197FA0D20004E6F2 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 318F2B5D197FA0D20004E6F2 /* MainVC.xib */; };
+		318F2B67197FA0D20004E6F2 /* pwd_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 318F2B5F197FA0D20004E6F2 /* pwd_close.png */; };
+		318F2B68197FA0D20004E6F2 /* pwd_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 318F2B60197FA0D20004E6F2 /* pwd_close@2x.png */; };
+		318F2B69197FA0D20004E6F2 /* pwd_open.png in Resources */ = {isa = PBXBuildFile; fileRef = 318F2B61197FA0D20004E6F2 /* pwd_open.png */; };
+		318F2B6A197FA0D20004E6F2 /* pwd_open@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 318F2B62197FA0D20004E6F2 /* pwd_open@2x.png */; };
+		318F2B6B197FA0D20004E6F2 /* XLShowHidePwd.m in Sources */ = {isa = PBXBuildFile; fileRef = 318F2B64197FA0D20004E6F2 /* XLShowHidePwd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,15 @@
 		318F2B4D197FA09C0004E6F2 /* XLShowHidePwdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XLShowHidePwdTests-Info.plist"; sourceTree = "<group>"; };
 		318F2B4F197FA09C0004E6F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		318F2B51197FA09C0004E6F2 /* XLShowHidePwdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLShowHidePwdTests.m; sourceTree = "<group>"; };
+		318F2B5B197FA0D20004E6F2 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		318F2B5C197FA0D20004E6F2 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		318F2B5D197FA0D20004E6F2 /* MainVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		318F2B5F197FA0D20004E6F2 /* pwd_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pwd_close.png; sourceTree = "<group>"; };
+		318F2B60197FA0D20004E6F2 /* pwd_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pwd_close@2x.png"; sourceTree = "<group>"; };
+		318F2B61197FA0D20004E6F2 /* pwd_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pwd_open.png; sourceTree = "<group>"; };
+		318F2B62197FA0D20004E6F2 /* pwd_open@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pwd_open@2x.png"; sourceTree = "<group>"; };
+		318F2B63197FA0D20004E6F2 /* XLShowHidePwd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLShowHidePwd.h; sourceTree = "<group>"; };
+		318F2B64197FA0D20004E6F2 /* XLShowHidePwd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLShowHidePwd.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +125,10 @@
 			children = (
 				318F2B3B197FA09C0004E6F2 /* AppDelegate.h */,
 				318F2B3C197FA09C0004E6F2 /* AppDelegate.m */,
+				318F2B5B197FA0D20004E6F2 /* MainVC.h */,
+				318F2B5C197FA0D20004E6F2 /* MainVC.m */,
+				318F2B5D197FA0D20004E6F2 /* MainVC.xib */,
+				318F2B5E197FA0D20004E6F2 /* XLShowHidePwdView */,
 				318F2B3E197FA09C0004E6F2 /* Images.xcassets */,
 				318F2B33197FA09C0004E6F2 /* Supporting Files */,
 			);
@@ -142,6 +162,19 @@
 				318F2B4E197FA09C0004E6F2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		318F2B5E197FA0D20004E6F2 /* XLShowHidePwdView */ = {
+			isa = PBXGroup;
+			children = (
+				318F2B5F197FA0D20004E6F2 /* pwd_close.png */,
+				318F2B60197FA0D20004E6F2 /* pwd_close@2x.png */,
+				318F2B61197FA0D20004E6F2 /* pwd_open.png */,
+				318F2B62197FA0D20004E6F2 /* pwd_open@2x.png */,
+				318F2B63197FA0D20004E6F2 /* XLShowHidePwd.h */,
+				318F2B64197FA0D20004E6F2 /* XLShowHidePwd.m */,
+			);
+			path = XLShowHidePwdView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +252,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				318F2B67197FA0D20004E6F2 /* pwd_close.png in Resources */,
+				318F2B69197FA0D20004E6F2 /* pwd_open.png in Resources */,
+				318F2B66197FA0D20004E6F2 /* MainVC.xib in Resources */,
 				318F2B37197FA09C0004E6F2 /* InfoPlist.strings in Resources */,
+				318F2B68197FA0D20004E6F2 /* pwd_close@2x.png in Resources */,
+				318F2B6A197FA0D20004E6F2 /* pwd_open@2x.png in Resources */,
 				318F2B3F197FA09C0004E6F2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				318F2B6B197FA0D20004E6F2 /* XLShowHidePwd.m in Sources */,
+				318F2B65197FA0D20004E6F2 /* MainVC.m in Sources */,
 				318F2B3D197FA09C0004E6F2 /* AppDelegate.m in Sources */,
 				318F2B39197FA09C0004E6F2 /* main.m in Sources */,
 			);
